@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* box-sizing: border box -- make padding, etc behave properly */
+/* https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+
+html, body {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+/* remove browser auto-styles... use css normalize for this */
+body {
+  margin: 0;
+  padding: 0;
+}
