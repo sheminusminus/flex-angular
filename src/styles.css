@@ -3,6 +3,9 @@
 /* box-sizing: border box -- make padding, etc behave properly */
 /* https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 
+@import "~ag-grid-community/dist/styles/ag-grid.css";
+@import "~ag-grid-community/dist/styles/ag-theme-balham.css";
+
 html, body {
   box-sizing: border-box;
 }
